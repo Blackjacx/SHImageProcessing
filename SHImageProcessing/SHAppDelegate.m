@@ -7,15 +7,19 @@
 //
 
 #import "SHAppDelegate.h"
+#import "SHRootViewController.h"
+
+@interface SHAppDelegate ()
+@property(nonatomic, strong)SHRootViewController * rootViewController;
+@end
 
 @implementation SHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-	
-		
-	
+	self.rootViewController = [[SHRootViewController alloc] init];
+	self.window.rootViewController = self.rootViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
