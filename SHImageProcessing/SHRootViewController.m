@@ -8,6 +8,7 @@
 
 #import "SHRootViewController.h"
 #import "PCLUtilities.h"
+//#import <opencv2/opencv.hpp>
 
 @interface SHRootViewController ()
 
@@ -31,7 +32,7 @@
 	UILabel * label = [[UILabel alloc] initWithFrame:self.view.bounds];
 	label.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
 	label.text = @"Hello!";
-	label.textAlignment = UITextAlignmentCenter;
+	label.textAlignment = PCLTextAlignmentCenter;
 	label.textColor = [UIColor blackColor];
 	[self.view addSubview:label];
 }

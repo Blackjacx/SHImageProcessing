@@ -19,6 +19,7 @@
 		B949F56417796E2F00139A82 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B949F56317796E2F00139A82 /* libstdc++.dylib */; };
 		B949F56617796E5B00139A82 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B949F56517796E5B00139A82 /* opencv2.framework */; };
 		B949F56A17796F3F00139A82 /* SHRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B949F56917796F3900139A82 /* SHRootViewController.m */; };
+		B9E44D3B1779A1A50021CCE7 /* SHOpenCVProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9E44D3A1779A1A50021CCE7 /* SHOpenCVProxy.mm */; };
 		B9EF84A61778832E00E5EE1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EF84A51778832E00E5EE1E /* Foundation.framework */; };
 		B9EF84A81778832E00E5EE1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EF84A71778832E00E5EE1E /* CoreGraphics.framework */; };
 		B9EF84AA1778832E00E5EE1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EF84A91778832E00E5EE1E /* UIKit.framework */; };
@@ -58,6 +59,8 @@
 		B949F56717796F3900139A82 /* PCLUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCLUtilities.h; sourceTree = "<group>"; };
 		B949F56817796F3900139A82 /* SHRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRootViewController.h; sourceTree = "<group>"; };
 		B949F56917796F3900139A82 /* SHRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRootViewController.m; sourceTree = "<group>"; };
+		B9E44D391779A1A50021CCE7 /* SHOpenCVProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHOpenCVProxy.h; sourceTree = "<group>"; };
+		B9E44D3A1779A1A50021CCE7 /* SHOpenCVProxy.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SHOpenCVProxy.mm; sourceTree = "<group>"; };
 		B9EF84A21778832E00E5EE1E /* SHImageProcessing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHImageProcessing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9EF84A51778832E00E5EE1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B9EF84A71778832E00E5EE1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,6 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9E44D3C1779A1C00021CCE7 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				B9E44D391779A1A50021CCE7 /* SHOpenCVProxy.h */,
+				B9E44D3A1779A1A50021CCE7 /* SHOpenCVProxy.mm */,
+			);
+			name = OpenCV;
+			sourceTree = "<group>";
+		};
 		B9EF84991778832E00E5EE1E = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +162,7 @@
 		B9EF84AB1778832E00E5EE1E /* SHImageProcessing */ = {
 			isa = PBXGroup;
 			children = (
+				B9E44D3C1779A1C00021CCE7 /* OpenCV */,
 				B949F56717796F3900139A82 /* PCLUtilities.h */,
 				B949F56817796F3900139A82 /* SHRootViewController.h */,
 				B949F56917796F3900139A82 /* SHRootViewController.m */,
@@ -175,8 +188,8 @@
 		B9EF84C41778832E00E5EE1E /* SHImageProcessingTests */ = {
 			isa = PBXGroup;
 			children = (
-				B9EF84CA1778832E00E5EE1E /* SHImageProcessingTests.m */,
 				B9EF84C51778832E00E5EE1E /* Supporting Files */,
+				B9EF84CA1778832E00E5EE1E /* SHImageProcessingTests.m */,
 			);
 			path = SHImageProcessingTests;
 			sourceTree = "<group>";
@@ -287,6 +300,7 @@
 			files = (
 				B9EF84B21778832E00E5EE1E /* main.m in Sources */,
 				B949F56A17796F3F00139A82 /* SHRootViewController.m in Sources */,
+				B9E44D3B1779A1A50021CCE7 /* SHOpenCVProxy.mm in Sources */,
 				B9EF84B61778832E00E5EE1E /* SHAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
