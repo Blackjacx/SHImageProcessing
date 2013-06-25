@@ -7,6 +7,7 @@
 //
 
 #import "SHRootViewController.h"
+#import "PCLUtilities.h"
 
 @interface SHRootViewController ()
 
