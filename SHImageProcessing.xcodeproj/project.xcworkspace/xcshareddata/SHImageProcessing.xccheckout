@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BDDC9864-C034-4DB9-BAD2-9108E6CDFD31</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SHImageProcessing</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DABCBEFD-D1A0-4183-B15B-5CB1111CB2A4</key>
+		<string>https://github.com/Blackjacx/SHImageProcessing.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SHImageProcessing.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DABCBEFD-D1A0-4183-B15B-5CB1111CB2A4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Blackjacx/SHImageProcessing.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DABCBEFD-D1A0-4183-B15B-5CB1111CB2A4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DABCBEFD-D1A0-4183-B15B-5CB1111CB2A4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SHImageProcessing</string>
+		</dict>
+	</array>
+</dict>
+</plist>
